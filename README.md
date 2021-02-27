@@ -5,5 +5,5 @@
 La página cuenta con 7 secciones.
 
 ## Diseño
- + La  página está diseñada como Landig.
+ + La  página está diseñada como Landing.
  + Utilizo scroll-snap-align.
