@@ -46,8 +46,7 @@ h2 {
   margin-right: 10px;
 }
 
-.section__1 {
-  background-image: url("/img/copernico-p_kICQCOM4s-unsplash.jpg");
+.section {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -55,46 +54,22 @@ h2 {
   height: 100vh;
   width: 100vw;
   scroll-snap-align: start;
+}
+
+.section__1 {
+  background-image: url("/img/copernico-p_kICQCOM4s-unsplash.jpg");
 }
 .section__2 {
   background-image: url("/img/laura-davidson-QBAH4IldaZY-unsplash.jpg");
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  height: 100vh;
-  width: 100vw;
-  scroll-snap-align: start;
 }
 .section__3 {
   background-image: url("/img/toa-heftiba-FV3GConVSss-unsplash.jpg");
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  height: 100vh;
-  width: 100vw;
-  scroll-snap-align: start;
 }
 .section__4 {
   background-image: url("/img/yolk-coworking-krakow-AQdyCfXWxB4-unsplash.jpg");
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  height: 100vh;
-  width: 100vw;
-  scroll-snap-align: start;
 }
 .section__5 {
   background-image: url("/img/david-fintz-z-Jaxjj0KVY-unsplash.jpg");
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  height: 100vh;
-  width: 100vw;
-  scroll-snap-align: start;
 }
 
 .contenedor__informacion {
@@ -152,4 +127,12 @@ h2 {
   padding: 8px 16px;
   border: 0;
   cursor: pointer;
+}
+
+@media (max-width: 921px) {
+  .contenedor__informacion {
+    display: flex;
+    flex-direction: column;
+    padding: 80px 0 80px 0;
+  }
 }
